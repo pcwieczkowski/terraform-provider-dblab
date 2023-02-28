@@ -1,4 +1,4 @@
-module github.com/hashicorp/terraform-provider-dblab
+module github.com/pcwieczkowski/terraform-provider-dblab
 
 go 1.18
 
@@ -9,6 +9,7 @@ require (
 	github.com/hashicorp/terraform-plugin-go v0.14.3
 	github.com/hashicorp/terraform-plugin-log v0.8.0
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.25.0
+	github.com/pkg/errors v0.9.1
 	gitlab.com/postgres-ai/database-lab/v3 v3.0.3
 )
 
@@ -78,7 +79,6 @@ require (
 	github.com/oklog/run v1.0.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.0.2 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
 	github.com/posener/complete v1.2.3 // indirect
 	github.com/russross/blackfriday v1.6.0 // indirect
 	github.com/sergi/go-diff v1.2.0 // indirect

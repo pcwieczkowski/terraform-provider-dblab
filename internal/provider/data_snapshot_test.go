@@ -16,8 +16,8 @@ package provider
 // 	})
 // }
 
-const testAccSnapshotsDataSourceConfig = providerConfig + `
-data "dblab_snapshots" "test" {
-  pool = "test"
-}
-`
+// const testAccSnapshotsDataSourceConfig = providerConfig + `
+// data "dblab_snapshots" "test" {
+//   pool = "test"
+// }
+// `
